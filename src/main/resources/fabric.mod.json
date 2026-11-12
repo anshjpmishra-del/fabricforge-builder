@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "my_first_mod",
+  "version": "${version}",
+  "name": "My First Mod",
+  "description": "Adds Calidite, an ore better than netherite found in the end.",
+  "authors": [ "Expert Modder" ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/my_first_mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [ "com.example.my_first_mod.CaliditeMod" ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25"
+  }
+}

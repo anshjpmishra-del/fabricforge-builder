@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [ "I", "I", "S" ],
+  "key": {
+    "I": { "item": "my_first_mod:calidite_ingot" },
+    "S": { "item": "minecraft:stick" }
+  },
+  "result": { "id": "my_first_mod:calidite_sword", "count": 1 }
+}
